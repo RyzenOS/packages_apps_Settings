@@ -21,7 +21,7 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
-    <!-- Ryzen X logo -->
+    <!-- Ryzen logo -->
     <com.android.settingslib.widget.LayoutPreference
         android:key="ryzen_logo"
         android:layout="@layout/ryzen_logo"
@@ -35,6 +35,15 @@
         settings:enableCopying="true"
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
+
+    <!-- RyzenOS version -->
+    <Preference
+        android:key="ryzenos_version"
+        android:title="@string/ryzenos_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:searchable="false"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.RyzenVersionDetailPreferenceController"/>
 
     <!-- Security patch -->
     <Preference
