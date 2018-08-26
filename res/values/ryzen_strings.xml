@@ -19,4 +19,7 @@
      <!-- About device screen, RyzenOS -->
     <string name="ryzenos_version">RyzenOS version</string>
     
+    <!-- About device screen, Build date -->
+    <string name="build_date">Build date</string>
+
 </resources>
