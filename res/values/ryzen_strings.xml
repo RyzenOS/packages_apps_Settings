@@ -265,4 +265,9 @@
 
      <!-- About device screen, RyzenOS -->
     <string name="ryzenos_version">RyzenOS version</string>
+
+    <!-- About device screen, build maintainer -->
+    <string name="build_maintainer">Build maintainer</string>
+    <string name="build_maintainer_summary">Unknown</string>
+
 </resources>
