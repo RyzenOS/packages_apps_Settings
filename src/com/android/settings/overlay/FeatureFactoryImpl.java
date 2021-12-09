@@ -33,6 +33,11 @@ import com.android.settings.accounts.AccountFeatureProvider;
 import com.android.settings.accounts.AccountFeatureProviderImpl;
 import com.android.settings.applications.ApplicationFeatureProvider;
 import com.android.settings.applications.ApplicationFeatureProviderImpl;
+import com.android.settings.applications.GameSettingsFeatureProvider;
+import com.android.settings.applications.GameSettingsFeatureProviderImpl;
+import com.android.settings.applications.GameSpaceFeatureProvider;
+import com.android.settings.applications.appinfo.ExtraAppInfoFeatureProvider;
+import com.android.settings.applications.appinfo.ExtraAppInfoFeatureProviderImpl;
 import com.android.settings.aware.AwareFeatureProvider;
 import com.android.settings.aware.AwareFeatureProviderImpl;
 import com.android.settings.biometrics.face.FaceFeatureProvider;
@@ -317,6 +322,14 @@ public class FeatureFactoryImpl extends FeatureFactory {
             mSecuritySettingsFeatureProvider = new SecuritySettingsFeatureProviderImpl();
         }
         return mSecuritySettingsFeatureProvider;
+    }
+
+    @Override
+    public GameSettingsFeatureProvider getGameSettingsFeatureProvider() {
+        if (mGameSettingsFeatureProvider == null) {
+            mGameSettingsFeatureProvider = new GameSpaceFeatureProvider();
+        }
+        return mGameSettingsFeatureProvider;
     }
 
     @Override
