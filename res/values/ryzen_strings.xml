@@ -31,4 +31,7 @@
     <!-- Hardware info -->
     <string name="platform_revision">Platform</string>
     <string name="total_ram">Total RAM</string>
+
+    <!-- RyzenOS Maintainer -->
+    <string name="ryzen_maintainer">Build Maintainer</string>
 </resources>
