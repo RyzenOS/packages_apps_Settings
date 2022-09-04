@@ -53,7 +53,16 @@ android_library {
         "SettingsLib-search-defaults",
     ],
 
-    srcs: ["src/**/*.java", "src/**/*.kt"],
+    srcs: ["src/**/*.java", "src/**/*.kt",
+           "RyzenLab/src/**/*.java",
+    ],
+
+    aaptflags: ["--extra-packages com.ryzen.lab"],
+
+    resource_dirs: [
+        "res",
+        "RyzenLab/res",
+    ],
 
     static_libs: [
         "androidx-constraintlayout_constraintlayout",
@@ -90,6 +99,7 @@ android_library {
         "Settings-change-ids",
         "VendorSupport-preference",
         "faceunlock_framework",
+        "kotlin-stdlib",
     ],
 
     libs: [
