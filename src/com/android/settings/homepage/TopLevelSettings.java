@@ -232,6 +232,9 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
             if (key.equals("firmware_version")){
                 preference.setLayoutResource(R.layout.top_level_preference_top);
             }
+            if (key.equals("top_level_ryzen_lab")){
+                preference.setLayoutResource(R.layout.top_level_preference_middle);
+            }
             if (key.equals("top_level_about_device")){
                 preference.setLayoutResource(R.layout.top_level_preference_bottom);
             }

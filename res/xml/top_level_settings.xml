@@ -38,6 +38,14 @@
         android:fragment="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionSettings"/>
 
     <com.android.settings.widget.HomepagePreference
+        android:key="top_level_ryzen_lab"
+        android:title="@string/ryzen_lab_dash_title"
+        android:summary="@string/ryzen_lab_summary"
+        android:icon="@drawable/ic_settings_ryzenlab"
+        android:order="-195"
+        android:fragment="com.ryzen.lab.RyzenLab"/>
+
+    <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.deviceinfo.aboutphone.MyDeviceInfoFragment"
         android:icon="@drawable/ic_phone_info"
         android:key="top_level_about_device"
@@ -51,7 +59,7 @@
         android:fragment="com.android.settings.network.NetworkDashboardFragment"
         android:icon="@drawable/ic_settings_wireless"
         android:key="top_level_network"
-        android:order="-150"
+        android:order="-160"
         android:title="@string/network_dashboard_title"
         android:summary="@string/summary_placeholder"
         settings:highlightableMenuKey="@string/menu_key_network"
@@ -61,7 +69,7 @@
         android:fragment="com.android.settings.connecteddevice.ConnectedDeviceDashboardFragment"
         android:icon="@drawable/ic_devices_other"
         android:key="top_level_connected_devices"
-        android:order="-140"
+        android:order="-150"
         android:title="@string/connected_devices_dashboard_title"
         android:summary="@string/connected_devices_dashboard_default_summary"
         settings:highlightableMenuKey="@string/menu_key_connected_devices"
@@ -71,7 +79,7 @@
         android:fragment="com.android.settings.applications.AppDashboardFragment"
         android:icon="@drawable/ic_apps"
         android:key="top_level_apps"
-        android:order="-130"
+        android:order="-140"
         android:title="@string/apps_dashboard_title"
         android:summary="@string/app_and_notification_dashboard_summary"
         settings:highlightableMenuKey="@string/menu_key_apps"/>
