@@ -41,7 +41,7 @@ import com.android.settings.R;
  * UI container for the accessibility quick settings tooltip.
  *
  * <p> The popup window shows the information about the operation of the quick settings. In
- * addition, the arrow is pointing to the top center of the device to display one-off menu within
+ * addition, the ryzen is pointing to the top center of the device to display one-off menu within
  * {@code mCloseDelayTimeMillis} time.</p>
  */
 public class AccessibilityQuickSettingsTooltipWindow extends PopupWindow {

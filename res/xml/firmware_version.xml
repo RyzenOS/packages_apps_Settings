@@ -21,10 +21,10 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
-    <!-- Arrow logo -->
+    <!-- Ryzen logo -->
     <com.android.settingslib.widget.LayoutPreference
-        android:key="arrow_logo"
-        android:layout="@layout/arrow_logo"
+        android:key="ryzen_logo"
+        android:layout="@layout/ryzen_logo"
         android:selectable="false"/>
 
     <!-- Android version
@@ -36,14 +36,14 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>-->
 
-    <!-- Arrow version -->
+    <!-- Ryzen version -->
     <Preference
-        android:key="arrow_version"
-        android:title="@string/arrow_version"
+        android:key="ryzen_version"
+        android:title="@string/ryzen_version"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:searchable="false"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.ArrowVersionDetailPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.RyzenVersionDetailPreferenceController"/>
 
     <!-- Device name -->
     <Preference
