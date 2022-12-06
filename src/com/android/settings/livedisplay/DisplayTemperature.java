@@ -32,7 +32,7 @@ import com.android.internal.lineage.hardware.LiveDisplayManager;
 import com.android.internal.lineage.util.MathUtils;
 import com.android.settings.R;
 
-import com.android.settings.custom.preference.CustomDialogPreference;
+import com.android.settings.ryzen.preference.CustomDialogPreference;
 
 /**
  * Preference for selection of color temperature range for LiveDisplay

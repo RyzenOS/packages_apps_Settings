@@ -26,7 +26,7 @@ import android.view.View;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
-import com.android.settings.custom.preference.CustomDialogPreference;
+import com.android.settings.ryzen.preference.CustomDialogPreference;
 import com.android.settings.widget.IntervalSeekBar;
 import com.android.settings.R;
 
