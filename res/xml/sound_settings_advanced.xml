@@ -67,17 +67,17 @@
         android:order="-10"/>
 
     <!-- Incall vibration options -->
-    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+    <com.android.settings.ryzen.preference.SystemSettingSwitchPreference
         android:key="vibrate_on_connect"
         android:title="@string/incall_vibrate_connect_title"
         android:defaultValue="false" />
 
-    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+    <com.android.settings.ryzen.preference.SystemSettingSwitchPreference
         android:key="vibrate_on_callwaiting"
         android:title="@string/incall_vibrate_call_wait_title"
         android:defaultValue="false" />
 
-    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+    <com.android.settings.ryzen.preference.SystemSettingSwitchPreference
         android:key="vibrate_on_disconnect"
         android:title="@string/incall_vibrate_disconnect_title"
         android:defaultValue="false" />
