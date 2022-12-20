@@ -56,8 +56,8 @@
     <string name="fingerprint_wake_unlock_press">Only listens for events once the screen is on</string>
 
     <!-- Game Space -->
-    <string name="game_space_title">Game Space</string>
-    <string name="game_space_summary">Enhance your gaming experience</string>
+    <!-- string name="game_space_title">Game Space</string>
+    <string name="game_space_summary">Enhance your gaming experience</string-->
 
     <!-- Scramble pin -->
     <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
