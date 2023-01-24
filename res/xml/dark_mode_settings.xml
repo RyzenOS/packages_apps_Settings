@@ -62,7 +62,7 @@
         settings:searchable="false"
         settings:controller="com.android.settings.display.darkmode.DarkModeCustomBedtimePreferenceController" />
 
-    <com.android.settings.custom.preference.SecureSettingSwitchPreference
+    <com.android.settings.ryzen.preference.SecureSettingSwitchPreference
         android:key="berry_black_theme"
         android:dependency="dark_ui_activated"
         android:title="@string/berry_black_theme_title"
