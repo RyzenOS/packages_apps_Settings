@@ -41,7 +41,7 @@
         android:key="other_controls_category"
         android:title="@string/other_controls_title">
 
-        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        <com.android.settings.ryzen.preference.SystemSettingSwitchPreference
             android:key="fullscreen_gestures"
             android:title="@string/fullscreen_gestures_title"
             android:summary="@string/fullscreen_gestures_summary"
